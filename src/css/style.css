@@ -1,0 +1,130 @@
+.main{
+    height: 100vh;
+    background-color: var(--very_light_grayish_blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notifications-section{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    width: 45rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+
+.notifications-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 30px;
+}
+
+.notifications-header .notifications-quantity{
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 20px;
+    padding: 3px 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.notifications-header .markAll #markAllBtn{
+    border: none;
+    background-color: white;
+    color: var(--dark_grayish_blue);
+    cursor: pointer;
+    font-size: 16px;
+}
+.notifications-header .markAll #markAllBtn:hover{
+    color: var(--blue);
+}
+
+.notifications-box img{
+    width: 40px;
+    height: 40px;
+}
+
+.notifications-box .notification{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+.notifications-box .notification.new{
+    background-color: var(--very_light_grayish_blue);
+}
+
+.notification .notification-info{
+    display: flex;
+    align-items: flex-start;
+}
+
+.notification .notification-info img{
+    margin-right: 15px;
+}
+
+.new-notification-circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.private-message{
+    margin: 10px 0 0 50px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--light_grayish_blue_2);
+}
+.private-message:hover{
+    background-color: var(--light_grayish_blue_1);
+    cursor: pointer;
+}
+
+.notification.post{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.notification .date{
+    color: var(--dark_grayish_blue);
+    margin-top: 2px;
+}
+
+/*span colors*/
+.span{
+    font-weight: 800;
+    margin-right: 3px;
+}
+
+.span.userNames{
+    color: var(--very_dark_blue);
+}
+
+.span.userNames:hover{
+    color: var(--blue);
+}
+
+.span.posts{
+    color: var(--dark_grayish_blue);
+}
+.span.posts:hover{
+    color: var(--blue);
+}
+
+.span.groups{
+    color: var(--blue);
+}
