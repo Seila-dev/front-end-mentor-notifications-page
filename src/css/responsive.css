@@ -1,0 +1,27 @@
+@media (max-width: 600px){
+    .notifications-section{
+    margin: 20px;
+    padding: 10px;
+    height: 100%;
+    }
+
+    .main{
+    height: 100%;
+    }
+}
+
+@media (max-width: 410px){
+    .notifications-header{
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .notifications-header .notifications-quantity{
+        font-size: 15px;
+    }
+
+    .notifications-header .markAll{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+}

@@ -10,7 +10,4 @@ markAllAsReadBtn.addEventListener('click', () => {
 
     const notificationsQuantity = document.querySelector('.notifications-quantity');
     notificationsQuantity.innerHTML = "0"
-
-
 })
-
