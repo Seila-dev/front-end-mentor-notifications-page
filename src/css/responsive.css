@@ -12,6 +12,7 @@
 
 @media (max-width: 410px){
     .notifications-header{
+        flex-direction: column;
         padding: 0;
         font-size: 15px;
     }
